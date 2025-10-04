@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
-    "cucumber": "cucumber-js"
+    "cucumber": "cucumber-js",
+    "cucumber2": "cucumber-js --tags=@only"
   },
   "author": "Lenar Khafizov",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.5.0",
+    "cucumber": "^6.0.7",
     "jest": "^30.1.3",
     "jest-puppeteer": "^11.0.0",
-    "puppeteer": "^24.22.3",
-    "chai": "^4.3.4",
-    "cucumber": "^6.0.7"    
-  } 
-}
+    "npm": "^11.6.1",
+    "puppeteer": "^24.22.3"
+  }
+}  
